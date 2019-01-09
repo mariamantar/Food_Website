@@ -202,3 +202,30 @@ h2:after {
 .main-nav li a:active {
   border-bottom: 2px solid #f1c40f;
 }
+
+
+/* -------------------------- */
+/* MENU STYLE */
+/* -------------------------- */
+
+.menu-showcase {
+  list-style: none;
+  width: 100%;
+
+}
+
+.menu-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.menu-photo {
+  width: 100%;
+  margin: 0;
+}
+
+.menu-photo img {
+  width: 100%;
+  height: auto;
+}
