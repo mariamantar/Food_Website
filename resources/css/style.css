@@ -208,6 +208,10 @@ h2:after {
 /* MENU STYLE */
 /* -------------------------- */
 
+.section-menu {
+  padding: 0;
+}
+
 .menu-showcase {
   list-style: none;
   width: 100%;
@@ -223,9 +227,19 @@ h2:after {
 .menu-photo {
   width: 100%;
   margin: 0;
+  overflow: hidden;
+  background: #000;
 }
 
 .menu-photo img {
+  opacity: 0.7;
   width: 100%;
   height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.menu-photo img:hover{
+  opacity: 1;
+  transform: scale(1);
 }
