@@ -34,6 +34,7 @@ section {
 
 .box {
   padding: 1%;
+  padding-bottom: 5%;
 }
 
 /* -------------------------- */
@@ -242,4 +243,41 @@ h2:after {
 .menu-photo img:hover{
   opacity: 1;
   transform: scale(1);
+}
+
+/* -------------------------- */
+/* INFO HONEY SECTION */
+/* -------------------------- */
+.info-section {
+  background-color: #f4f4f4;
+  padding: 0 auto;
+}
+
+
+.info-box {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.info-heading {
+  margin-top: 10%;
+  text-align: center;
+
+}
+
+.info-box div {
+  padding: 15px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.info-text,
+.info-title {
+  padding: 10px;
+}
+
+.info-text {
+  line-height: 145%;
+  margin-left: 15%;
+  padding-bottom: 10px;
 }
