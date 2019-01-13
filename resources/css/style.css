@@ -127,7 +127,8 @@ h2:after {
 /* -------------------------- */
 
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit] {
   display: inline-block;
   padding: 10px 30px;
   font-weight: 300;
@@ -138,7 +139,8 @@ h2:after {
 
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
   color: #fff;
   background-color: #f1c40f;
   border: 1px solid #f1c40f;
@@ -146,24 +148,26 @@ h2:after {
 }
 
 .btn-ghost:link,
-.btn-ghost:visited {
+.btn-ghost:visited, {
   color: #f1c40f;
   border: 1px solid #f1c40f;
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
   background-color: #d2aa0c;
 }
 
 
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active, {
   border: 1px solid #d2aa0c;
 }
 
 .btn-ghost:hover,
-.btn-ghost:active {
+.btn-ghost:active, {
   color: #fff;
   border: 1px solid #d2aa0c;
 }
@@ -281,3 +285,27 @@ h2:after {
   margin-left: 15%;
   padding-bottom: 10px;
 }
+
+/* -------------------------- */
+/* CONTACT FORM */
+/* -------------------------- */
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.text-area {
+  height: 100px;
+}
+
+*:focus {outline: none;}
