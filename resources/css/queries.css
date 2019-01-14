@@ -1,0 +1,48 @@
+/* Media query is a CSS technique introduced in CSS3.
+It uses the @media rule to include a block of CSS properties only if a certain condition is true. */
+
+/* Big tablets to 1200px (width smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+  .cover-text-box {
+   width: 100%;
+   padding: 0 2%;
+  }
+  .row {padding: 0 2%;}
+}
+
+
+/* Small tablet to big tablet: 768px to 1023 (landscape mode) */
+@media only screen and (max-width: 1023px) {
+  body {font-size: 18px;}
+  section {padding: 60px 0;}
+
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .contact-form {width: 80%;}
+
+}
+
+
+/* small phones to small tablets: from 481 to 767px */
+@media only screen and (max-width: 767px) {
+  body {font-size: 16px;}
+  section {padding: 30px 0;}
+  .row,
+  .cover-text-box {padding: 0 4%;}
+  .col {width: 100%;}
+  .main-nav {display: none;}
+  h1 {font-size: 180%;}
+  h2 {font-size: 150%;}
+  .long-copy{
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+/* small phones from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  section {padding: 25px 0;}
+  .contact-form {width: 100%;}
+}
