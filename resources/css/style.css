@@ -262,15 +262,18 @@ input[type=submit]:active {
 
 .info-box {
   background-color: #fff;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 100%;
+  padding-bottom: 50px;
+  padding-top: 30px;
 }
 
 .info-heading {
-  margin-top: 10%;
+  display: block;
+  padding-top: 20px;
   text-align: center;
   font-size: 40px;
-  color: #fff;
+  color: #555;
 }
 
 .info-video {
@@ -286,6 +289,11 @@ input[type=submit]:active {
 .info-text,
 .info-title {
   padding: 10px;
+}
+
+.info-title {
+    font-weight: 500;
+    text-align: center;
 }
 
 .info-text {
@@ -331,11 +339,14 @@ footer {
 .footer-nav {
   list-style: none;
   float: left;
+  display: flex;
+
 }
 
 .social-links {
   list-style: none;
   float: right;
+  display: flex;
 }
 
 .footer-nav li,
