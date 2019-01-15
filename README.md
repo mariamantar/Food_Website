@@ -7,3 +7,4 @@ Tools Used:
 - Normalize.css
 - Responsive Grid System
 - ion icons
+- Way points
