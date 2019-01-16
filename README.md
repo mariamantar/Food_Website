@@ -1,7 +1,7 @@
 # Mellow Comb
 
-#WIREFRAME
-![alt text](https://imgur.com/a/cJv8z9i)
+# Website Wireframe
+![wireframe](https://user-images.githubusercontent.com/37126943/51179684-5c4e7300-191a-11e9-9a26-81e6bc2abee5.png)
 
 
 Tools Used:
